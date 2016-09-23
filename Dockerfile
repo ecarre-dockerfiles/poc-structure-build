@@ -1,5 +1,5 @@
 FROM alpine
 
 ENV msg base
-
-CMD echo "${msg}"
+ENV specific proxy
+CMD echo "${msg}-${specific}"
