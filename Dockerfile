@@ -1,5 +1,5 @@
 FROM alpine
 
-ENV msg base
+ENV msg base_v2
 
 CMD echo "${msg}"
